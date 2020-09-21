@@ -1,8 +1,10 @@
-.app{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
-    background: lightseagreen;
-    margin: 20px;
+.picture{
+        /* display: flex; */
+        margin: 30px;
+        width: 300px;
+        box-shadow: 5px 10px 5px 5px
     
+}
+.btn{
+    margin: 10px;
 }
