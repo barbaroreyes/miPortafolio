@@ -1,6 +1,6 @@
 .picture{
-    
-    text-align: center;
+    display: flex;
+    margin: 30px;
     width: 300px;
     box-shadow: 5px 10px 5px 5px;
 }

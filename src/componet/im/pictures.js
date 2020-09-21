@@ -4,8 +4,13 @@ import './img.css'
 
 function Pictures() {
     return (
-        <div class= ' tc picture tc ma3 pa2 ' >
-           <img src={work} alt=''/>
+        <div className= ' picture dib ' >
+          
+           <div className='tc ma2 '> <img src={work} alt=''/></div>
+           <div className='tc ma2'> <p>Every challenge that life gives you shows you what you're up for</p> </div>
+             
+         
+          
         </div>
     )
 }

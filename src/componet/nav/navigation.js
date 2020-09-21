@@ -3,12 +3,12 @@ import  './index.css'
 
 function Navigation() {
     return (
-        <div className=' bg-light-green  tc'>
-           <button className='na grow'>Home</button>
-           <button className='na grow'>About Me</button>
-           <button className='na grow'><a href="https://www.linkedin.com/in/barbaro-reyes-b023aa1a7/">LinKedln</a></button>
-           <button className='na grow'><a href="https://github.com/barbaroreyes">GitHub</a></button>
-           <button className='na grow'>Contact</button>
+        <div className=' nav1   '>
+           <button className='na grow'><i class="fas fa-home"></i></button>
+           <button className='na grow'><i class="far fa-file"></i></button>
+           <button className='na grow'><a href="https://www.linkedin.com/in/barbaro-reyes-b023aa1a7/"><i class="fab fa-linkedin"></i></a></button>
+           <button className='na grow'><a href="https://github.com/barbaroreyes"><i class="fas fa-project-diagram"></i></a></button>
+           <button className='na grow'><i class="fas fa-info"></i></button>
            
         </div>
     )

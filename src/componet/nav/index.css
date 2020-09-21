@@ -5,6 +5,12 @@ a{
     text-decoration: none;
     color: black;
 }
-na:hover{
-    color: red
+.na:hover{
+    color: red;
+    background: rgb(20, 159, 206);
+}
+.nav1{
+    width: 200px;
+   margin-left: 70px;
+   background: rgb(1, 86, 88);
 }
