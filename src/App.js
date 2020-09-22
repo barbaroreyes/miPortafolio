@@ -1,8 +1,8 @@
 import React ,{Component}from 'react';
 import './App.css';
-import work from './componet/img/work.jpg'
+// import work from './componet/img/work.jpg'
 
-import Header from './componet/header/header';
+// import Header from './componet/header/header';
 // import Pictures from './componet/im/pictures';
 import Navigation from './componet/nav/navigation'
   class App extends Component{
@@ -11,7 +11,7 @@ import Navigation from './componet/nav/navigation'
       this.state={
        divs : [
          {name :'Barbaro Reyes',
-          picture: <img src= {work} alt=''/>
+          // picture: <img src= {work} alt=''/>
           
          },{
            btn:<button className='' onClick ={() => this.setState({string:'reyes2'})}>change</button>,
@@ -25,17 +25,16 @@ import Navigation from './componet/nav/navigation'
     }
     render(){
      return (
-           <div className ='app '>
+           <div className ='app tc'>
               <Navigation/>
-              <Header/>
+              
           {
               
                this.state.divs.map( div => {
                  return (
-                 <div className=' tc picture bg-transparent dib  ma3 pa2 shadow-3 f3'>
+                 <div className=' tc picture bg-transparent dib  ma3 pa2  f3'>
                  {div.picture}
-                 {div.text}
-                 {div.btn}
+                 {/* {div.btn} */}
                  </div>)
                })
               

@@ -1,6 +1,8 @@
 .na{
+    
    margin: 4px; 
    border-radius: 10px;
+
 }
 a{
     text-decoration: none;
@@ -13,4 +15,7 @@ a{
 .nav1{
  text-align: end;
    
+}
+.name{
+    color: grey;
 }
