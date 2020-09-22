@@ -1,21 +1,25 @@
-.na{
-    
-   margin: 4px; 
-   border-radius: 10px;
 
-}
 a{
     text-decoration: none;
-    color: black;
+    color: #fff;
+    cursor: pointer;
+    
 }
-.na:hover{
-    color: red;
-    background: rgb(20, 159, 206);
+
+.navigation {
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    color: #fff;
 }
-.nav1{
- text-align: end;
-   
+
+li{
+    margin: 7px;
+    display: inline-block;
+    list-style: none;
+    color: white;
 }
-.name{
-    color: grey;
+.porta{
+    color: #fff;
 }
