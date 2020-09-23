@@ -1,19 +1,27 @@
 import React ,{Component}from 'react';
-import './index.css'
-  
+import './index.css';
+// import Pictures from '../../componet/im/pictures';
+import Long from '../img/long.jpg'
+
+
+  const myStyles ={
+      background: `url(${Long})`,
+      height: '80vh',
+      backgroundsize: 'cover',
+
+      
+  }
 class Header extends Component {
     
     render(){
         return (
             <div className =''>
-             hello
-            <header className='   '>
-                <div>
-                    <img alt ='' src ='' />
-                </div>
-                {/* <h1 className='  bg-transparent dib grow ma3 shadow-3'>Barbaro Reyes</h1>    
-                <h1 className='  bg-transparent dib grow  shadow-3'>Software Developer</h1>     */}
-            </header>
+              <header style={myStyles}>
+                <h1 className='' >{this.props.title}</h1>
+                <button><a href="#button butt"></a>{this.props.button}</button>
+              </header>
+            
+        
          </div>
         )
     }

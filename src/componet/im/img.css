@@ -1,6 +1,4 @@
 .picture{
     display: flex;
-    margin: 40px;
-    width: 300px;
-    box-shadow: 5px 10px 5px 5px;
+    background-size: cover;
 }

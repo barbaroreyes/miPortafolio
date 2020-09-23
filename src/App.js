@@ -1,6 +1,6 @@
 import React ,{Component}from 'react';
 import './App.css';
-import {Switch,Route} from 'react-router-dom'
+// import {Switch,Route} from 'react-router-dom'
 import  LandingPage from './componet/landingpage/landingpage'
 // import work from './componet/img/work.jpg'
 
@@ -14,9 +14,10 @@ import  LandingPage from './componet/landingpage/landingpage'
           
      return  (
         <div>
-           <Switch>
+          <LandingPage/>
+           {/* <Switch>
             <Route exact path ='/' component ={LandingPage}/>
-           </Switch>
+           </Switch> */}
         </div>
      )
     }

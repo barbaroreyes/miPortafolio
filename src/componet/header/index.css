@@ -1,0 +1,14 @@
+header{
+ margin: 0 auto;
+text-align: center;
+
+}
+ header h1{
+    margin: 0 ;
+    font-size: 7.3em;
+    color: rgb(218, 50, 50);
+    text-shadow: 5px 4px ;
+ }
+ .butt a{
+    color: brown;
+ }
